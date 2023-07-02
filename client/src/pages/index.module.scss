@@ -1,0 +1,14 @@
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 92vh;
+  background-color: #2b9d9f;
+
+  .header{
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+}

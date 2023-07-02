@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    height: 87vh;
+    background-color: #2b9d9f;
+
+    .weatherInfo{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+
+
+        .heading{
+            font-size: 40px;
+
+            span{
+                font-weight: 600;
+                text-transform: capitalize;
+            }
+        }
+        .briefInfo{
+            font-size: 30px;
+            display: inline-flex;
+            flex-direction: row;
+            align-items: center;
+            .description{
+                font-size: 24px;
+                margin: 0 10px;
+                text-transform: capitalize;
+            }
+        }
+
+        .otherInfo{
+            border: 1px solid grey;
+            border-radius: 20px;
+            padding: 20px;
+            font-size: 20px;
+            background-color: #036769;
+            width: 330px;
+            color: white;
+        }
+
+    }
+}
+
+.respError{
+    font-size: 24px;
+    font-weight: 500;
+}
